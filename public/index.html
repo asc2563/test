@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rock paper scissors</title>
+    <script src="./assets/js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div id="contsss">
+      <button onclick="rock(Math.floor(Math.random() * 3 ) + 1)">rock</button>
+      <button onclick="paper(Math.floor(Math.random() * 3 ) + 1)">paper</button>
+      <button onclick="scissors(Math.floor(Math.random() * 3 ) + 1)">
+        scissors
+      </button>
+      <button onclick="money()">up points for molah</button>
+      <button onclick="cashin()">cash in your earnings</button>
+
+      <div id="setPassword" class="custom-alert" style="display: none;">
+        <br />
+        <div id="alertContent"></div>
+        <br><br>
+        <button id="confirm" onclick="hideCustomAlert()">Comfirm</button>
+      </div>
+
+      </div>
+      <img/>
+      <img src = "./assets/images/paper.jpeg" style="display: none" id = "paperimg"/>
+      <img src = "./assets/images/rock.jpg" style="display: none" id = "rockimg"/>
+      <img src = "./assets/images/scissors.jpeg" style="display: none" id = "scissorsimg"/>
+    </div>
+  </body>
+</html>
