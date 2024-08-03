@@ -143,7 +143,7 @@ function money() {
 function cashin() {
   document.getElementById(
     "alertContent"
-  ).innerText = `you now have 0 points\nyou won ${player.points} dollars`;
+  ).innerText = `you now have 0 points\nyou won ${player.points} points`;
   showCustomAlert();
   player.points = 0;
   document.getElementById("rockimg").style.display = "none";
